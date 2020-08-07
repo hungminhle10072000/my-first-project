@@ -1,0 +1,4 @@
+Sách toeic:starter toiec,developing skills for toeic test,toeic analyst,target toiec
+Sách thuật toán:Cracking the coding interview và elements òf programming interview
+Code làm việc nhóm : SVN,Git,TFS
+Tìm việc:ITViec,Linkedin
