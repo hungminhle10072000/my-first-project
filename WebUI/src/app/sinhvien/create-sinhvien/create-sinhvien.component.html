@@ -1,0 +1,29 @@
+<h3>Thêm Sinh Viên</h3>
+<div>
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">Mã sinh viên</label>
+      <input type="text" class="form-control" id="maSV" required [(ngModel)]="sinhvien.ma_SV" name="maSV">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Tên sinh viên</label>
+      <input type="text" class="form-control" id="tenSV" required [(ngModel)]="sinhvien.ten_SV" name="tenSV">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Ngày sinh</label>
+      <input type="date" class="form-control" id="ngaysinh" required [(ngModel)]="sinhvien.ngay_Sinh" name="ngaysinh">
+    </div>
+    <div class="form-group">
+      <label for="name">Lớp</label>
+      <input type="text" class="form-control" id="lop" required [(ngModel)]="sinhvien.ten_Lop" name="lop">
+    </div>
+    <div class="form-group">
+        <label for="name">Khoa</label>
+        <input type="text" class="form-control" id="khoa" required [(ngModel)]="sinhvien.ten_Khoa" name="khoa">
+      </div>
+
+    <button class="btn btn-success" type="submit">Submit</button>
+  </form>
+</div>
